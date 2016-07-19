@@ -1,0 +1,230 @@
+@charset "utf-8";
+@import "normalize";
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.content {
+  .header {
+    -webkit-box-shadow: 0px -2px 93px -10px rgba(0,0,0,0.56);
+    -moz-box-shadow: 0px -2px 93px -10px rgba(0,0,0,0.56);
+    box-shadow: 0px -2px 93px -10px rgba(0,0,0,0.56);
+    li{
+      margin-left: 10px;
+      margin-top: 20px;
+      margin-right: 25px;
+    }
+    li.content_logo {
+      margin-left: 25%;
+      margin-top: 8.5px;
+      margin-bottom: 4px;
+    }
+    li.right {
+      float: right;
+    }
+    a{
+      color: black;
+    }
+  }
+}
+.banner {
+  background-image: url(image_path("organic.jpg"));
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 100%;
+  height: 650px;
+  min-height: 500px;
+  display: table;
+  .banner_content {
+    font-family: 'Crimson Text', serif;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    h1 {
+      color: black;
+      font-size: 100px;
+      margin: 0;
+    }
+    p {
+      font-size: 25px;
+      font-family: 'Courgette', cursive;
+      margin: 0 0 2.5rem 0;
+      color: dimgray;
+      margin-top: 39px;
+      margin-bottom: 48px;
+    }
+  }
+
+  div.button {
+    width: 15%;
+    margin-left: 810px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    background-color: #00cc00;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    a{
+      color: white;
+      letter-spacing: 1px;
+      font-family: 'Arimo', sans-serif;
+    }
+    i{
+      margin-left: 4px;
+    }
+  }
+}
+
+.callouts {
+  h5 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 34px;
+  }
+  div.links {
+    text-align: center;
+    margin-top: 50px;
+    word-spacing: 45px;
+    a{
+      color: dimgray;
+    }
+    a:visited {
+      text-decoration: underline;
+      padding-bottom: 20px;
+    }
+    .all {
+      word-spacing: 3px;
+    }
+  }
+  div{
+    .callout {
+      width: 55%;
+      margin-left: 45rem;
+      margin-top: 50px;
+    }
+  }
+  .thumbnail {
+    height: 32rem;
+    width: 21rem;
+    margin-top: 29px;
+    box-shadow: 4px 4px 27px -9px rgba(0,0,0,0.75);
+    h3 {
+      text-transform: uppercase;
+      font-size: 14px;
+      text-align: center;
+      margin-top: 0px;
+    }
+    img {
+      margin-top: 10px;
+      width: 18rem;
+      height: 20rem;
+      margin-bottom: 2px;
+    }
+    p {
+      text-align: center;
+      font-size: 15px;
+      color: #00cc00;
+      margin-top: 20px;
+    }
+    hr {
+      margin-top: 7px;
+      margin-bottom: 10px;
+      border: 0;
+      border-top: 1px solid #eeeeee;
+    }
+  }
+}
+div.button2 {
+  text-align: center;
+  margin-top: 9rem;
+  border-style: solid;
+  width: 12%;
+  margin-left: 85rem;
+  height: 6rem;
+  border-color: #00cc00;
+  border-width: .5px;
+  border-radius: 4px;
+  a{
+    color: #00cc00;
+    letter-spacing: 1.3px;
+    line-height: 5.5rem;
+    font-family: 'Arimo', sans-serif;
+  }
+}
+
+.testimonial {
+  margin-top: 4rem;
+  background-image: url(image_path("vegetables.jpg"));
+  box-shadow: inset -1px 3px 56px 23px rgba(250,247,250,1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 100%;
+  height: 650px;
+  min-height: 500px;
+  display: table;
+  div.test {
+    margin-left: 25%;
+    margin-top: 8%;
+    h3 {
+      font-family: 'Crimson Text', serif;
+      display: table-cell;
+      text-align: center;
+      color: white;
+      font-size: 70px;
+    }
+    p {
+      font-family: 'Courgette', cursive;
+      color: #eeeeee;
+      font-size: 28px;
+      margin-left: 17rem;
+      margin-top: 5rem;
+    }
+    div {
+      margin-left: 35rem;
+      color: white;
+      margin-top: 4rem;
+      #logo {
+        height: 7rem;
+        width: 7rem;
+        margin-right: 2rem;
+        -webkit-filter: invert(100%);
+        -webkit-filter: grayscale(100%);
+      }
+    }
+  }
+}
+
+.custom {
+  #custom{
+    margin-left: 38%;
+    margin-top: 4.2%;
+    margin-bottom: 40px;
+    h4 {
+      font-family: 'Crimson Text', serif;
+      display: table-cell;
+      text-align: center;
+      font-size: 34px;
+    }
+  }
+  .row {
+    width: 58%;
+    margin-left: 40rem;
+    p {
+      #open {
+        color: #00cc00;
+        font-size: 3rem;
+        margin-left: 1rem;
+      }
+
+    }
+    div.stil {
+      border-style: outset;
+      border-width: .6rem;
+      width: 26rem;
+      height: 12rem;
+    }
+  }
+}

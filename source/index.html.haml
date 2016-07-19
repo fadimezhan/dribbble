@@ -1,0 +1,141 @@
+.content
+  .header
+    %ul.nav.nav-tabs
+      %li
+        =link_to "Home", "#"
+      %li
+        =link_to "Blog", "#"
+      %li.dropdown
+        %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
+          Dropdown
+          %b.caret
+          %ul.dropdown-menu
+            %li
+              %a{:href => "#"} Action
+      %li.content_logo
+        =image_tag 'vege_shop.png'
+      %li.right
+        =link_to "Cart", "#"
+      %li.right
+        =link_to "Log In", "#"
+
+.banner
+  .banner_content
+    %h1 Organic Store
+    %p Vegeterian shop with organic food
+    %div.button
+      =link_to "SEARCH OUR STORE", "#"
+      %i.fa.fa-long-arrow-right{"aria-hidden" => "true"}
+
+.callouts
+  %h5 New products
+  %div.links
+    =link_to "ALL PRODUCTS", "#", class: "all"
+    =link_to "FRUITS", "#"
+    =link_to "VEGETABLES", "#"
+    =link_to "OTHER", "#"
+
+  %div
+    .callout
+      .row
+        .col-xs-6.col-md-3
+          .thumbnail
+            =image_tag 'mushroom.jpg'
+            %hr
+            .caption
+              %h3 Mushrooms - 1kg
+              %p $9.50
+
+        .col-xs-6.col-md-3
+          .thumbnail
+            %img{:alt => "vegeshop", :src => "vege_shop.png"}/
+            %hr
+            .caption
+              %h3 Mushrooms - 1kg
+              %p $9.50
+        .col-xs-6.col-md-3
+          .thumbnail
+            %img{:alt => "...", :src => "..."}/
+            %hr
+            .caption
+              %h3 Mushrooms - 1kg
+              %p $9.50
+        .col-xs-6.col-md-3
+          .thumbnail
+            %img{:alt => "...", :src => "..."}/
+            %hr
+            .caption
+              %h3 Mushrooms - 1kg
+              %p $9.50
+      .row
+        .col-xs-6.col-md-3
+          .thumbnail
+            %img{:alt => "...", :src => "..."}/
+            %hr
+            .caption
+              %h3 Mushrooms - 1kg
+              %p $9.50
+
+        .col-xs-6.col-md-3
+          .thumbnail
+            %img{:alt => "...", :src => "..."}/
+            %hr
+            .caption
+              %h3 Mushrooms - 1kg
+              %p $9.50
+        .col-xs-6.col-md-3
+          .thumbnail
+            %img{:alt => "...", :src => "..."}/
+            %hr
+            .caption
+              %h3 Mushrooms - 1kg
+              %p $9.50
+        .col-xs-6.col-md-3
+          .thumbnail
+            %img{:alt => "...", :src => "..."}/
+            %hr
+            .caption
+              %h3 Mushrooms - 1kg
+              %p $9.50
+
+
+    %div.button2
+      =link_to "SHOW MORE", "#"
+
+.testimonial
+  %div.test
+    %h3 Fresh products with certification
+    %p We offer the highest quality organic products
+    %div
+      =image_tag 'logo1.png',id: "logo"
+      =image_tag 'logo2.png', id: "logo"
+
+
+.custom
+  %div#custom
+    %h4 What our customers think
+  .row
+    .col-sm-6.col-md-4
+      .caption
+        %div.stil
+          %p Your products are awesome!
+        %img{:alt => "avatar", :src => "..."}/
+        %p Jonathon J.
+    .col-sm-6.col-md-4
+      .caption
+        %div.stil
+          %p.open
+            "
+          %p Your products are awesome!
+          %p.close
+            "
+        %img{:alt => "avatar", :src => "..."}/
+        %p Jonathon J.
+    .col-sm-6.col-md-4
+      .caption
+        %div.stil
+          %p Your products are awesome!
+        %img{:alt => "avatar", :src => "..."}/
+        %p Jonathon J.
+
+
