@@ -48,51 +48,51 @@
 
         .col-xs-6.col-md-3
           .thumbnail
-            %img{:alt => "vegeshop", :src => "vege_shop.png"}/
+            =image_tag 'pumbkin.jpeg'
             %hr
             .caption
-              %h3 Mushrooms - 1kg
+              %h3 Pumbkin - 1kg
               %p $9.50
         .col-xs-6.col-md-3
           .thumbnail
-            %img{:alt => "...", :src => "..."}/
+            =image_tag 'greenpea.jpeg'
             %hr
             .caption
-              %h3 Mushrooms - 1kg
+              %h3 Green Pea - 1kg
               %p $9.50
         .col-xs-6.col-md-3
           .thumbnail
-            %img{:alt => "...", :src => "..."}/
+            =image_tag 'aubergine.jpeg'
             %hr
             .caption
-              %h3 Mushrooms - 1kg
+              %h3 Aubergine - 1kg
               %p $9.50
       .row
         .col-xs-6.col-md-3
           .thumbnail
-            %img{:alt => "...", :src => "..."}/
+            =image_tag 'celery.jpeg'
             %hr
             .caption
-              %h3 Mushrooms - 1kg
+              %h3 Celery - 1kg
               %p $9.50
 
         .col-xs-6.col-md-3
           .thumbnail
-            %img{:alt => "...", :src => "..."}/
+            =image_tag 'garlic.jpeg'
+            %hr
+            .caption
+              %h3 Garlic - 1kg
+              %p $9.50
+        .col-xs-6.col-md-3
+          .thumbnail
+            =image_tag 'paprikamix.jpeg'
             %hr
             .caption
               %h3 Mushrooms - 1kg
               %p $9.50
         .col-xs-6.col-md-3
           .thumbnail
-            %img{:alt => "...", :src => "..."}/
-            %hr
-            .caption
-              %h3 Mushrooms - 1kg
-              %p $9.50
-        .col-xs-6.col-md-3
-          .thumbnail
-            %img{:alt => "...", :src => "..."}/
+            =image_tag 'patatoes.jpeg'
             %hr
             .caption
               %h3 Mushrooms - 1kg
@@ -118,24 +118,64 @@
     .col-sm-6.col-md-4
       .caption
         %div.stil
+          %h1.open
+            “
           %p Your products are awesome!
-        %img{:alt => "avatar", :src => "..."}/
-        %p Jonathon J.
+          %h1.close
+            ”
+          %i.fa.fa-sort-desc{"aria-hidden" => "true"}
+        =image_tag 'avatar1.jpeg', class: "avatar"
+        %p.name Jonathon J.
     .col-sm-6.col-md-4
       .caption
         %div.stil
-          %p.open
-            "
+          %h1.open
+            “
           %p Your products are awesome!
-          %p.close
-            "
-        %img{:alt => "avatar", :src => "..."}/
-        %p Jonathon J.
+          %h1.close
+            ”
+          %i.fa.fa-sort-desc{"aria-hidden" => "true"}
+        =image_tag 'avatar2.jpeg', class: "avatar"
+        %p.name Sarah T.
     .col-sm-6.col-md-4
       .caption
         %div.stil
+          %h1.open
+            “
           %p Your products are awesome!
-        %img{:alt => "avatar", :src => "..."}/
-        %p Jonathon J.
+          %h1.close
+            ”
+          %i.fa.fa-sort-desc{"aria-hidden" => "true"}
+        =image_tag 'avatar3.jpg', class: "avatar"
+        %p.name Katherina P.
+.contact
+  %hr
+  %table
+    %tr
+      %th Contact
+      %th Shop
+      %th Shopping
+      %th Follow us on
+    %tr
+      %td=link_to "VegeShop", "#"
+      %td=link_to "Products", "#"
+      %td=link_to "Delivery Time", "#"
+      %td
+        =image_tag "facebook.png", class: "share"
+        =image_tag "twitter.png", class: "share"
+    %tr
+      %td Warzywna 5/6
+    %tr
+      %td 87-100 Torun
+      %td=link_to "Blog", "#"
+      %td=link_to "Cost of delivery", "#"
+    %tr
+      %td +48 791 054 214
+      %td= link_to "Help", "#"
+      %td=link_to "Payment methods", "#"
+    %tr
+      %td
+      %td=link_to "Terms", "#"
+      %td=link_to "Complaints", "#"
 
-
+  =image_tag 'contact.jpg'
